@@ -1,0 +1,2 @@
+1. $_SERVER environmental variables.
+2. The file uploading problem.

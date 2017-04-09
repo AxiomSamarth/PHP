@@ -1,0 +1,37 @@
+String Functions :
+
+1. $string_word_count = str_word_count($string);
+   which gives the word count in the string
+
+2. $string_word_count = str_word_count($string,1);
+   which creates an associative array of the words in the string.
+
+3. $string_word_count = str_word_count($string,2);
+   which gives the absolute position of the first letter of the word in the string.
+
+	{$string_word_count = str_word_count($string,1 or 2, 'characters to include');}
+
+4. $sub_string = substr($string,0,strlenght required);
+
+5. percentage_similarity = similar_text($string1, $string2, $result);
+
+6. $string_position = strpos($string, $find, $offset(optional));
+
+7. $string_upper = strtoupper($string);
+
+8. $string_lower = strtolower($string);
+
+9. preg_match('/string to match/',$string); 
+
+	/*This has a return value and hence usually used in a function or 						else in a if statement or as while loop condition*/
+
+10. $string_trimmed = trim($string);
+     This trims all the empty spaces on either side of the string.
+	i. rtrim($string); 	//trims the spaces at the right side or end of the sentence
+	ii. ltrim($string);	//trims the spaces at the left side or end of the sentence.	
+
+11. $string_shuffled = str_shuffle($string); 	//A major tool for generating captcha
+
+12. $string_replaced = str_replace('looking for', 'replace with', $string);
+
+	looking for and replace with can be an array too..!!
